@@ -190,7 +190,7 @@ const TestFile = () => {
           <div id={styles.left}>
             <br></br>
             <br></br>
-            <h2>Click on New Test below to get started!</h2>
+            <h1>Click on New Test below to get started!</h1>
             <br></br>
           </div>
           <div id={styles.testMenu}>

@@ -24,6 +24,7 @@
   height: 20%;
   background-color: #fff;
   p {
+    font-size: 15px;
     color: $mint;
     margin: 10px;
     font-weight: bold;
@@ -64,7 +65,7 @@
 
   p {
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.5;
   }
   input {
@@ -73,14 +74,15 @@
   }
   button {
     margin: 10px 5px 5px 5px;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 500;
     text-align: center;
     vertical-align: middle;
     float: right;
-    width: 100px;
-    height: 1.5rem;
-    color: #fff;
-    background-color: transparent;
+    width: 150px;
+    height: 2.0rem;
+    color: $mint;
+    background-color: white;
     outline: none;
     box-shadow: none;
     cursor: pointer;
@@ -94,6 +96,7 @@
 #text {
   margin: 12px;
   text-align: center;
+  font-size: 12px
 }
 
 #save:hover {
@@ -113,7 +116,7 @@
   display: flex;
   justify-content: space-between;
   width: 98%;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 #left {
@@ -121,19 +124,24 @@
   #newTestBtn {
     height: 40px;
     width: 110px;
+    font-weight: 500;
     opacity: 0.8;
     font-family: $oxygen;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 5px;
     border: 0.5px $light-gray solid;
-    color: $mint;
-    background-color: white;
+    color: white;
+    background-color: $mint;
   }
 
   #newTestBtn:hover {
     background-color: $mint;
     color: white;
   }
+}
+
+h1{
+  font-size: 17px;
 }
 
 pre {

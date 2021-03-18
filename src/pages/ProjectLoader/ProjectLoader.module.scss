@@ -4,7 +4,7 @@
 #upperPart {
   width: 100%;
   height: 50vh;
-  background-color: #02c2c3;
+  background-color: #038181;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -56,7 +56,7 @@
 #url {
   margin-top: 10px;
   padding-left: 1rem;
-  font-size: 12px;
+  font-size: 15px;
   width: 250px;
   height: 25px;
   color: rgb(128, 128, 128);
@@ -82,13 +82,15 @@
   letter-spacing: 1.5px;
   font-family: $oxygen;
   color: $mint;
+  font-size: 15px
 }
 
 .text {
   margin-left: 5px;
-  font-weight: 300;
+  font-weight: 700;
   font-family: $oxygen;
   letter-spacing: 1px;
+  font-size: 20px
 }
 
 #helpBtn {
@@ -97,8 +99,8 @@
   // margin-right: 4px;
   // margin-bottom: 4px;
   margin: 15px 4px 4px 4px;
-  height: 40px;
-  width: 110px;
+  height: 50px;
+  width: 150px;
   opacity: 0.8;
   font-family: $oxygen;
   font-size: 14px;
